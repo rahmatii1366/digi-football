@@ -1,0 +1,22 @@
+GET http://localhost:8080
+Authorization: Basic dXNlcjp1c2Vy
+
+###
+GET http://localhost:8080/index.html
+Authorization: Basic dXNlcjp1c2Vy
+
+###
+GET http://localhost:8080/assets/index.html
+Authorization: Basic dXNlcjp1c2Vy
+
+###
+GET http://localhost:8080/hello
+
+###
+GET http://localhost:8080/hello/ali
+
+###
+GET http://localhost:8080/user
+Authorization: Basic dXNlcjp1c2Vy
+
+###
