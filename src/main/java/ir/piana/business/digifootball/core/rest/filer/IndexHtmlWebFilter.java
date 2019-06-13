@@ -1,4 +1,4 @@
-package com.example.demo.rest.filter;
+package ir.piana.business.digifootball.core.rest.filer;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.PropertySource;
@@ -29,3 +29,4 @@ public class IndexHtmlWebFilter implements WebFilter {
         return chain.filter(exchange);
     }
 }
+

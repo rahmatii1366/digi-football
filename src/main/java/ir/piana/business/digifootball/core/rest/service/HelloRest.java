@@ -1,4 +1,4 @@
-package com.example.demo.rest;
+package ir.piana.business.digifootball.core.rest.service;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @author Mohamad Rahmati (rahmatii1366@gmail.com)
- * Date: 6/11/2019 2:17 PM
+ * Date: 6/13/2019 11:29 AM
  **/
 @RestController
 @RequestMapping("hello")

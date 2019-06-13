@@ -1,4 +1,4 @@
-package com.example.demo.security;
+package ir.piana.business.digifootball.core.rest.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.config.annotation.web.reactive.EnableWebFluxSecurity;
@@ -37,3 +37,4 @@ public class BasicConfiguration {
         return http.build();
     }
 }
+
